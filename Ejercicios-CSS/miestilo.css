@@ -28,4 +28,7 @@
         h3{
             text-shadow: 2px 1px blueviolet;
         }
-    
+        .pos-fix{
+            position: fixed;
+            top: 0;
+        }
