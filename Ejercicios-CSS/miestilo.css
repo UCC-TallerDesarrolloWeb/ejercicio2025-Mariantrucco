@@ -1,0 +1,31 @@
+
+        div{
+            border: 2px solid blueviolet;
+            margin: 20px;
+            padding: 10px;
+            background-color: rgba(238, 130, 238, 0.408);
+            border-radius: 15px;
+            box-shadow: 1px 2px rgb(47, 47, 182);
+
+        }
+        #icono-usuario{
+            width: 10%;
+            float: left;
+            border-radius: 50%;
+        }
+        body{
+            text-align: center;
+            font-family: "Lato", sans-serif;
+            background: linear-gradient(
+                to right,
+                blueviolet
+                green
+            );
+        }
+        .titulo{
+            text-shadow: 8px 4px yellow;
+        }
+        h3{
+            text-shadow: 2px 1px blueviolet;
+        }
+    
