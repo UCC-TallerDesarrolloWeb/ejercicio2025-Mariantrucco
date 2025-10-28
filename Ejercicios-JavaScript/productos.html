@@ -3,13 +3,15 @@
     <head>
         <title>Catalogo de Productos</title>
         <link rel="stylesheet" href="store.css" type="text/css" />
+        <script type="text/javascript" src="funciones.js"></script>
+        </head>
         <body class="grid-container">
             <header class="item1">Catalogo de Productos</header>
             <nav class="item2">
                 <a href="productos.html">Catalogo de Productos</a>
                 <a href="">Carrito de Compras</a>
             </nav>
-            <aside class="item3">Filtros</aside>
+            <aside class="item3">Filtros
                 <form>
                     <fieldset>
                         <legend>Busqueda</legend>
@@ -49,29 +51,36 @@
                 </form>
             </aside>
 
-            <main>
-                <div>
-                    <img src="../Ejercicios-JavaScript/images/cabezal-cerrado.webp" alt="cabezal-cerrado"/>
+            <main class="item4">
+                <dialog id="modal">
+                    <h2>Detalle de Producto</h2>
                     <h3>Cabezal Cerrado</h3>
+                    <p>Cabezal de sparring. Disponible del talle 1 al 3. Color azul y rojo.</p>
+                    <button type="button" onclick="cerrarModal()">Cerrar</button>
+                </dialog>
+                <div>
+                    <img src="images/cabezal-cerrado.webp" alt="cabezal-cerrado"/>
+                    <h3>Cabezal Cerrado</h3>
+                    <button type="button" onclick="mostrarModal()">Ver detalle del producto</button>
                 </div>
                 <div>
-                    <img src="../Ejercicios-JavaScript/images/escudo-potencia.webp" alt="escudo-potencia"/>
+                    <img src="images/escudo-potencia.webp" alt="escudo-potencia"/>
                     <h3>Escudo Potencia</h3>
                 </div>
                 <div>
-                    <img src="../Ejercicios-JavaScript/images/foco-con-dedos.webp" alt="foco-con-dedos"/>
+                    <img src="images/foco-con-dedos.webp" alt="foco-con-dedos"/>
                     <h3>Foco con dedos</h3>
                 </div>
                 <div>
-                    <img src="../Ejercicios-JavaScript/images/protectores-manos.webp" alt="protectores-manos"/>
+                    <img src="images/protectores-manos.webp" alt="protectores-manos"/>
                     <h3>Protectores Manos</h3>
                 </div>
                 <div>
-                    <img src="../Ejercicios-JavaScript/images//dobok.webp" alt="dobok"/>
+                    <img src="images//dobok.webp" alt="dobok"/>
                     <h3>Dobok</h3>
                 </div>
                 <div>
-                    <img src="../Ejercicios-JavaScript/images/protectores-pie.webp" alt="protectores-pie"/>
+                    <img src="images/protectores-pie.webp" alt="protectores-pie"/>
                     <h3>Protectores de pie</h3>
                 </div>
             </main>
@@ -79,5 +88,5 @@
                 Contacto
             </footer>
         </body>
-    </head>
+    
 </html>
